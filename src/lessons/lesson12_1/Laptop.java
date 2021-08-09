@@ -1,14 +1,16 @@
 package lessons.lesson12_1;
 
 public class Laptop extends Computer{
-    public int ssd;
+    private int weight;
 
-    public Laptop(int ssd, int ram, int ssd1) {
+    public Laptop(int ssd, int ram, int weight) {
         super(ssd, ram);
-        this.ssd = ssd1;
+        this.weight = weight;
     }
 
-    public int getSsd() {
-        return ssd;
+
+    @Override
+    public void load() {
+        System.out.println("Laptop is loaded!");
     }
 }

@@ -1,6 +1,6 @@
 package lessons.lesson12_1;
 
-public class Computer {
+public abstract class Computer {
     private int ssd;
     private int ram;
 
@@ -8,6 +8,8 @@ public class Computer {
         this.ssd = ssd;
         this.ram = ram;
     }
+
+    public abstract void load();
 
     public int getSsd() {
         return ssd;
