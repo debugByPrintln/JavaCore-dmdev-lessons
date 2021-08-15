@@ -20,6 +20,7 @@ public class MapExample {
 //        System.out.println(map.values());
 //        System.out.println(map.entrySet());
 
+        System.out.println(map);
         for (Map.Entry<Integer, Person> entry : map.entrySet()) {
             System.out.println(entry.getKey() + "   " + entry.getValue().getFirstName() + "   " + entry.getValue().getLastName());
         }

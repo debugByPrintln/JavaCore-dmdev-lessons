@@ -3,7 +3,7 @@ package lessons.lesson19_11;
 public class Student implements Comparable<Student>{
     private String firstName;
     private String lastName;
-    private int age;
+    private Integer age;
     private double avgPoint;
 
     public Student(String firstName, String lastName, int age, double avgPoint) {
@@ -39,6 +39,21 @@ public class Student implements Comparable<Student>{
         return avgPoint;
     }
 
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setAvgPoint(double avgPoint) {
+        this.avgPoint = avgPoint;
+    }
 
     @Override
     public int compareTo(Student o) {

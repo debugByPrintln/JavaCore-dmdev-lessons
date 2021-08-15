@@ -15,6 +15,7 @@ public class StudentRunner {
         System.out.println(students);
 
         System.out.println(findBestStudent(students));
+//        Student student = new Student();
 
 //        students.sort(Comparator.comparing(Student::getLastName).thenComparing(Student::getFirstName)
 //        .thenComparing(Student::getAge).thenComparing(Student::getAvgPoint));
