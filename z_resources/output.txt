@@ -1,3 +1,35 @@
-Hello, world!Hello, world!
-Asta la wista, baby!
-Hello
+;3_81nossel.snossel egakcap
+
+{>V ,K<riaP ssalc cilbup
+;tsrif K etavirp    
+;dnoces V etavirp    
+
+{)dnoces tcejbO ,tsrif tcejbO(riaP cilbup    
+;tsrif )K( = tsrif.siht        
+;dnoces )V( = dnoces.siht        
+}    
+
+edirrevO@    
+{ )(gnirtSot gnirtS cilbup    
++ "{riaP" nruter        
++ tsrif + "=tsrif"                
++ dnoces + "=dnoces ,"                
+;'}'                
+}    
+
+{ )(tsriFteg K cilbup    
+;tsrif nruter        
+}    
+
+{ )tsrif K(tsriFtes diov cilbup    
+;tsrif = tsrif.siht        
+}    
+
+{ )(dnoceSteg V cilbup    
+;dnoces nruter        
+}    
+
+{ )dnoces V(dnoceStes diov cilbup    
+;dnoces = dnoces.siht        
+}    
+}
