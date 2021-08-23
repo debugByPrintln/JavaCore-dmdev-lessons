@@ -7,14 +7,19 @@ public class TestRunner {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         Path path = Path.of("serializationDir", "test.out");
         Student student = null;
+        Person person = null;
         try(ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(path.toFile()))){
             student = (Student) objectInputStream.readObject();
+            person = (Person) objectInputStream.readObject();
         }
         catch (Exception e){
-            student = new Student(22, "Sergey", "Sosnov", 43434);
+            e.printStackTrace();
         }
 
-        System.out.println(student.toString());
+        if (student != null) {
+            System.out.println(student.toString());
+            System.out.println(person.toString());
+        }
 
     }
 }
