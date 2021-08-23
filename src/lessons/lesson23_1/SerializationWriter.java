@@ -9,9 +9,9 @@ import java.nio.file.Path;
 public class SerializationWriter {
     public static void main(String[] args) throws IOException {
         Path path = Path.of("serializationDir", "test.out");
-        Person person = new Person(19, "Anton", "Lohov");
+        Student student = new Student(19, "Anton", "Lohov", 11);
         try(ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(path.toFile()))){
-            objectOutputStream.writeObject(person);
+            objectOutputStream.writeObject(student);
         }
     }
 }

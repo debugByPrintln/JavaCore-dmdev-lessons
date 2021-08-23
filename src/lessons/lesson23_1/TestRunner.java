@@ -6,15 +6,15 @@ import java.nio.file.Path;
 public class TestRunner {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         Path path = Path.of("serializationDir", "test.out");
-        Person person = null;
+        Student student = null;
         try(ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(path.toFile()))){
-            person = (Person) objectInputStream.readObject();
+            student = (Student) objectInputStream.readObject();
         }
         catch (Exception e){
-            person = new Person(22, "Sergey", "Sosnov");
+            student = new Student(22, "Sergey", "Sosnov", 43434);
         }
 
-        System.out.println(person.toString());
+        System.out.println(student.toString());
 
     }
 }
